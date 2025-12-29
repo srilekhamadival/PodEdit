@@ -1,0 +1,115 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environment
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# PyCharm
+.idea/
+
+# VS Code
+.vscode/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Project-specific
+# Large audio/video files
+*.wav
+*.mp3
+*.mp4
+*.mov
+*.avi
+*.mkv
+*.flac
+
+# Generated results (can be regenerated)
+results/*.json
+results/*.edl
+results/*.xml
+results/*.csv
+
+# Keep README files in results directories
+!results/*/README.md
+
+# LaTeX build files
+paper/*.aux
+paper/*.bbl
+paper/*.blg
+paper/*.log
+paper/*.out
+paper/*.toc
+paper/*.pdf
+paper/*.synctex.gz
+paper/*.fdb_latexmk
+paper/*.fls
+
+# Large datasets (optional - uncomment if you don't want to track them)
+# datasets/*/audio/
+# datasets/*/video/
+
+# Temporary files
+*.tmp
+*.temp
+*.cache
+
+# Environment variables
+.env
+.env.local
+
+# Test coverage
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
