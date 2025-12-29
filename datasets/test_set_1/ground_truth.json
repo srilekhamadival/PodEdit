@@ -1,0 +1,48 @@
+{
+  "video_metadata": {
+    "camera1_file": "camera1.mp4",
+    "camera2_file": "camera2.mp4",
+    "recording_date": "2025-10-16",
+    "duration_seconds": 180.5,
+    "podcast_type": "interview",
+    "audio_quality": "high",
+    "environment": "indoor_studio"
+  },
+  "manual_sync_offset": {
+    "camera2_offset_seconds": 2.35,
+    "confidence": "high",
+    "sync_method": "clap_detection"
+  },
+  "silence_segments": [
+    {
+      "start": 45.2,
+      "end": 48.7,
+      "duration": 3.5,
+      "type": "pause",
+      "should_remove": true
+    },
+    {
+      "start": 92.1,
+      "end": 93.3,
+      "duration": 1.2,
+      "type": "breathing",
+      "should_remove": false
+    }
+  ],
+  "speaker_segments": [
+    {
+      "start": 0.0,
+      "end": 12.5,
+      "speaker": "host",
+      "camera": "camera1"
+    },
+    {
+      "start": 12.5,
+      "end": 28.3,
+      "speaker": "guest",
+      "camera": "camera2"
+    }
+  ],
+  "manual_editing_time_minutes": 45,
+  "editor_experience_years": 3
+}

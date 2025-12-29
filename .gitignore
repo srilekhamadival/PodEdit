@@ -89,9 +89,20 @@ paper/*.synctex.gz
 paper/*.fdb_latexmk
 paper/*.fls
 
-# Large datasets (optional - uncomment if you don't want to track them)
-# datasets/*/audio/
-# datasets/*/video/
+# Large datasets and test files
+datasets/*/audio/
+datasets/*/video/
+datasets/*/*.wav
+datasets/*/*.mp3
+datasets/*/*.mp4
+datasets/*/*.mov
+datasets/*/*.avi
+datasets/*/*.mkv
+datasets/*/*.flac
+
+# Keep metadata and ground truth JSON files
+!datasets/*/metadata.json
+!datasets/*/ground_truth.json
 
 # Temporary files
 *.tmp
